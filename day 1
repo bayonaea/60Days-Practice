@@ -1,0 +1,5 @@
+let item = "Burger" + " " + 60
+console.log (item);
+
+const item1 = "Fries" + " " + 50
+console.log(item1) 
