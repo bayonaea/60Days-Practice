@@ -1,0 +1,12 @@
+function calculateSubtotal(price, qty) {
+let subtotal = price * qty;
+return subtotal;
+}
+
+// using function
+let itemPrice = 50;
+let quantity = 3;
+let subtotal = calculateSubtotal(itemPrice, quantity);
+
+console.log("Quantity: " + quantity);
+console.log("Subtotal: ₱" + subtotal);
