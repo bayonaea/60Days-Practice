@@ -1,0 +1,12 @@
+const item = {
+name: "Burger",
+price: 45,
+quantity: 10
+};
+
+console.log(item.name); // dot notation
+console.log(item["price"]); // bracket notation
+
+// output
+Burger
+45
