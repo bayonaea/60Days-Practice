@@ -1,0 +1,20 @@
+function calculateSubtotal(price, qty) {
+    let subtotal = price * qty;
+
+// applying 10% discount if qty > 5
+    if (qty > 5) {
+        subtotal = subtotal * 0.9;
+    } else {
+        subtotal = subtotal; // no discount
+    }
+    return subtotal;
+}
+
+console.log(calculateSubtotal(50, 3));
+console.log(calculateSubtotal(50, 6));
+
+
+
+// output
+150
+270 (discounted)
