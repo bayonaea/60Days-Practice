@@ -6,7 +6,9 @@ quantity: 10
 
 console.log(item.name); // dot notation
 console.log(item["price"]); // bracket notation
+console.log(item.quantity);
 
 // output
 Burger
 45
+10
