@@ -1,0 +1,22 @@
+const cart = [];
+cart.push("Burger");
+cart.push("Ice Cream");
+cart.push("Coke");
+console.log(cart)
+console.log(cart.length)
+
+// output
+[ 'Burger', 'Ice Cream', 'Coke' ]
+3
+
+const cart = [];
+cart.push("Burger");
+cart.push("Ice Cream");
+cart.push("Coke");
+cart.pop();
+console.log(cart)
+console.log(cart.length)
+
+//output
+[ 'Burger', 'Ice Cream' ]
+2
